@@ -2,4 +2,4 @@
 ENVBASH=$1
 ENVBASH=${ENVBASH:-"bash"}
 #echo "ENVBASH=$ENVBASH"
-docker run --rm -ti vertigo/liberty-kernel:latest $ENVBASH ${@:2}
+docker run --rm -ti -p 9080:9080 vertigo/liberty-kernel:latest $ENVBASH ${@:2}

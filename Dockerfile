@@ -8,3 +8,4 @@ MAINTAINER Andre Fernandes <andre@vertigo.com.br>
 RUN wget http://registry.vtg/files/ibm/wlp-kernel-8.5.5.6.zip -q -O /opt/wlp-kernel.zip && \
     unzip /opt/wlp-kernel.zip -d /opt/
 
+EXPOSE 9080
